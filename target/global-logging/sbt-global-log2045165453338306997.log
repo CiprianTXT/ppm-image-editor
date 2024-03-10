@@ -1,0 +1,85 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Private Build Java 17.0.6)
+[debug]       Load.loadUnit: plugins took 76.013247ms
+[debug]       Load.loadUnit: defsScala took 0.26781ms
+[debug] [Loading] Scanning directory /home/ciprian/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/ciprian/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 64.416332 ms
+[debug]           Load.resolveProject(global-plugins) took 64.857682ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/ciprian/.sbt/1.0/plugins, plugins: List(<none>))) took 166.611162ms
+[debug] [Loading] Done in /home/ciprian/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 190.976114ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.232343ms
+[debug]     Load.loadUnit(file:/home/ciprian/.sbt/1.0/plugins/, ...) took 275.453248ms
+[debug]   Load.apply: load took 573.472899ms
+[debug]   Load.apply: resolveProjects took 6.412568ms
+[debug]   Load.apply: finalTransforms took 104.706917ms
+[debug]   Load.apply: config.delegates took 11.120567ms
+[debug]   Load.apply: Def.make(settings)... took 772.306245ms
+[debug]   Load.apply: structureIndex took 265.031986ms
+[debug]   Load.apply: mkStreams took 1.632ms
+[info] loading global plugins from /home/ciprian/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] sbt-1.8.2.jar no longer exists at /home/ciprian/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.8.2/sbt-1.8.2.jar
+[debug] Load.defaultLoad until apply took 8796.984117ms
+[debug]           Load.loadUnit: plugins took 26.435691ms
+[debug]           Load.loadUnit: defsScala took 0.006903ms
+[debug] [Loading] Scanning directory /mnt/w/PP/PP_homeworks/Tema1PP-skel/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /mnt/w/PP/PP_homeworks/Tema1PP-skel/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.153599 ms
+[debug]               Load.resolveProject(tema1pp-skel-build) took 1.671715ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id tema1pp-skel-build, base: /mnt/w/PP/PP_homeworks/Tema1PP-skel/project, plugins: List(<none>))) took 5.576535ms
+[debug] [Loading] Done in /mnt/w/PP/PP_homeworks/Tema1PP-skel/project, returning: (tema1pp-skel-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 8.151982ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.015299ms
+[debug]         Load.loadUnit(file:/mnt/w/PP/PP_homeworks/Tema1PP-skel/project/, ...) took 35.645349ms
+[debug]       Load.apply: load took 37.538556ms
+[debug]       Load.apply: resolveProjects took 0.16778ms
+[debug]       Load.apply: finalTransforms took 13.221872ms
+[debug]       Load.apply: config.delegates took 0.505313ms
+[debug]       Load.apply: Def.make(settings)... took 119.904418ms
+[debug]       Load.apply: structureIndex took 40.082093ms
+[debug]       Load.apply: mkStreams took 0.002966ms
+[info] loading project definition from /mnt/w/PP/PP_homeworks/Tema1PP-skel/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 557.872819ms
+[debug]     Load.loadUnit: defsScala took 0.004589ms
+[debug] [Loading] Scanning directory /mnt/w/PP/PP_homeworks/Tema1PP-skel
+[debug]       Load.loadUnit: mkEval took 5.733895ms
